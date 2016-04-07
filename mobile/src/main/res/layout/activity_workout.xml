@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    tools:context="com.pranjal.getfit.WorkoutActivity">
+
+    <ViewAnimator
+        android:id="@+id/materiallayer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#3F51B5"
+        android:elevation="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Push-Ups"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:id="@+id/challengeTitle"/>
+    </ViewAnimator>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/PBUTTON"
+        android:onClick="work"
+        android:background="#FF5722"
+        android:textColor="@android:color/white"
+        android:textSize="80dp"
+        android:padding="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/materiallayer" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="80dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"/>-->
+
+</RelativeLayout>

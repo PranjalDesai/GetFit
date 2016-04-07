@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.pranjal.getfit.TaskDone">
+
+    <ViewAnimator
+        android:id="@+id/materiallayer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#3F51B5"
+        android:elevation="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenge Finished"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:id="@+id/textView10"/>
+    </ViewAnimator>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="donezo"
+        android:background="#D32F2F"
+        android:textColor="@android:color/white"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Request Money from"
+        android:id="@+id/finalView"
+        android:layout_below="@+id/materiallayer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#3F51B5"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/nessie"
+        android:layout_below="@+id/finalView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
