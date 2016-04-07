@@ -20,7 +20,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB80UMHKv9pTwmQ0Vmx8431QepLZ8jbz3Y" />
+            android:value="ENTER_KEY_HERE" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
